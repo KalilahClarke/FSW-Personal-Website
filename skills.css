@@ -1,0 +1,19 @@
+img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+  }
+
+  body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: center;
+    padding-top: 80px;
+    justify-content: center;
+    background-color: black;
+    gap: 2em;
+  }
